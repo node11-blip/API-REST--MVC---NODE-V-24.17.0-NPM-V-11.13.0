@@ -1,0 +1,58 @@
+# -------------------------------------------------------------------------
+# VARIABLES DE ENTORNO Y SECRETOS (¡CRÍTICO!)
+# -------------------------------------------------------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# -------------------------------------------------------------------------
+# SUBLIME TEXT (Específicos de tu editor)
+# -------------------------------------------------------------------------
+*.sublime-project
+*.sublime-workspace
+.sublime-project
+.sublime-workspace
+sftp-config.json
+
+# -------------------------------------------------------------------------
+# DEPENDENCIAS (Se reinstalan con 'npm install')
+# -------------------------------------------------------------------------
+node_modules/
+jspm_packages/
+web_modules/
+.pnpm-store/
+
+# -------------------------------------------------------------------------
+# CARPETAS DE PRODUCCIÓN Y COMPILACIÓN
+# -------------------------------------------------------------------------
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+
+# -------------------------------------------------------------------------
+# ARCHIVOS DE REGISTRO Y ERRORES (Logs)
+# -------------------------------------------------------------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# -------------------------------------------------------------------------
+# OTROS EDITORES Y CONFIGURACIONES DE PC
+# -------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
